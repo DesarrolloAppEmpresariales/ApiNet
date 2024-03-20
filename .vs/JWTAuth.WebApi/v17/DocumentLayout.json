@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\dario\\source\\repos\\ApiNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|c:\\users\\julio\\source\\repos\\jwtauth.webapi\\jwtauth.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|solutionrelative:jwtauth.webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|c:\\users\\julio\\source\\repos\\jwtauth.webapi\\jwtauth.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|solutionrelative:jwtauth.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|c:\\users\\julio\\source\\repos\\jwtauth.webapi\\jwtauth.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|solutionrelative:jwtauth.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\repository\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\repository\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|c:\\users\\julio\\source\\repos\\jwtauth.webapi\\jwtauth.webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|solutionrelative:jwtauth.webapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|c:\\users\\julio\\source\\repos\\jwtauth.webapi\\jwtauth.webapi\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\JWTAuth.WebApi.csproj|solutionrelative:jwtauth.webapi\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|c:\\users\\dario\\source\\repos\\apinet\\jwtauth.webapi\\interface\\iempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5376198C-03E8-42EF-89EC-558531DAD2ED}|JWTAuth.WebApi\\BarberiApp.WebApi.csproj|solutionrelative:jwtauth.webapi\\interface\\iempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenController.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Controllers\\TokenController.cs",
-              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Controllers\\TokenController.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Controllers\\TokenController.cs",
-              "RelativeToolTip": "JWTAuth.WebApi\\Controllers\\TokenController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T00:37:34.477Z",
+              "WhenOpened": "2024-03-20T05:48:58.341Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "JWTAuth.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\appsettings.json",
-              "RelativeToolTip": "JWTAuth.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-15T00:13:34.036Z",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Models\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Models\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:57:08.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "JWTAuth.WebApi\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Controllers\\TokenController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T00:04:57.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Program.cs",
-              "RelativeToolTip": "JWTAuth.WebApi\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:48:49.847Z",
+              "WhenOpened": "2024-03-20T05:49:16.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Repository\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Repository\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\Repository\\EmployeeRepository.cs",
-              "RelativeToolTip": "JWTAuth.WebApi\\Repository\\EmployeeRepository.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAqwAgAAAA0AAAA",
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Models\\Empleado.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Models\\Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T22:47:05.59Z",
+              "WhenOpened": "2024-03-20T05:20:34.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Repository\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Repository\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Repository\\EmpleadoRepository.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Repository\\EmpleadoRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:53:16.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:15:02.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Interface\\IEmpleado.cs",
+              "RelativeDocumentMoniker": "JWTAuth.WebApi\\Interface\\IEmpleado.cs",
+              "ToolTip": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\Interface\\IEmpleado.cs",
+              "RelativeToolTip": "JWTAuth.WebApi\\Interface\\IEmpleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:24:45.111Z",
               "EditorCaption": ""
             }
           ]

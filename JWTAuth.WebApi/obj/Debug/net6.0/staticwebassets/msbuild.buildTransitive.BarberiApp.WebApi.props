@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BarberiApp.WebApi.props" />
+</Project>

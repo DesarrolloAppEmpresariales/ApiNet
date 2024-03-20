@@ -7,29 +7,30 @@ using Microsoft.EntityFrameworkCore;
 namespace JWTAuth.WebApi.Controllers
 {
     [Authorize]
-    [Route("api/employee")]
+    [Route("api/empleado")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class EmpleadoController : ControllerBase
     {
-        private readonly IEmployees _IEmployee;
+        private readonly IEmpleado _IEmpleado;
 
-        public EmployeeController(IEmployees IEmployee)
+        public EmpleadoController(IEmpleado IEmpleado)
         {
-            _IEmployee = IEmployee;
+            _IEmpleado = IEmpleado;
         }
 
         // GET: api/employee>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> Get()
+        [Authorize(Roles = "1")]
+        public async Task<ActionResult<IEnumerable<Empleado>>> Get()
         {
-            return await Task.FromResult(_IEmployee.GetEmployeeDetails());
+            return await Task.FromResult(_IEmpleado.ObtenerListaEmpleados());
         }
 
         // GET api/employee/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> Get(int id)
+        public async Task<ActionResult<Empleado>> Get(int id)
         {
-            var employees = await Task.FromResult(_IEmployee.GetEmployeeDetails(id));
+            var employees = await Task.FromResult(_IEmpleado.ObtenerEmpleadoPorId(id));
             if (employees == null)
             {
                 return NotFound();
@@ -39,23 +40,23 @@ namespace JWTAuth.WebApi.Controllers
 
         // POST api/employee
         [HttpPost]
-        public async Task<ActionResult<Employee>> Post(Employee employee)
+        public async Task<ActionResult<Empleado>> Post(Empleado empleado)
         {
-            _IEmployee.AddEmployee(employee);
-            return await Task.FromResult(employee);
+            _IEmpleado.CrearEmpleado(empleado);
+            return await Task.FromResult(empleado);
         }
 
         // PUT api/employee/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<Employee>> Put(int id, Employee employee)
+        public async Task<ActionResult<Empleado>> Put(int id, Empleado empleado)
         {
-            if (id != employee.EmployeeID)
+            if (id != empleado.EmpleadoID)
             {
                 return BadRequest();
             }
             try
             {
-                _IEmployee.UpdateEmployee(employee);
+                _IEmpleado.ActualizarEmpleado(empleado);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -68,20 +69,20 @@ namespace JWTAuth.WebApi.Controllers
                     throw;
                 }
             }
-            return await Task.FromResult(employee);
+            return await Task.FromResult(empleado);
         }
 
         // DELETE api/employee/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Employee>> Delete(int id)
+        public async Task<ActionResult<Empleado>> Delete(int id)
         {
-            var employee = _IEmployee.DeleteEmployee(id);
-            return await Task.FromResult(employee);
+            var empleado = _IEmpleado.EliminarEmpleado(id);
+            return await Task.FromResult(empleado);
         }
 
         private bool EmployeeExists(int id)
         {
-            return _IEmployee.CheckEmployee(id);
+            return _IEmpleado.ValidarEmpleado(id);
         }
     }
 }

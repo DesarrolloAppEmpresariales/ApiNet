@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj": {}
+    "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj": {
+    "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
         "projectName": "JWTAuth.WebApi",
-        "projectPath": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
+        "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dario\\Source\\Repos\\ApiNet\\JWTAuth.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Donot forgot to add ConnectionStrings as "dbConnection" to the appsetting.json file
 builder.Services.AddDbContext<DatabaseContext>
     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("dbConnection")));
-builder.Services.AddTransient<IEmployees, EmployeeRepository>();
+builder.Services.AddTransient<IEmpleado, EmpleadoRepository>();
 builder.Services.AddControllers();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

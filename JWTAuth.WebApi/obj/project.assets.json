@@ -2380,19 +2380,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Julio\\.nuget\\packages\\": {}
+    "C:\\Users\\dario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
-      "projectName": "JWTAuth.WebApi",
-      "projectPath": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\JWTAuth.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julio\\source\\repos\\JWTAuth.WebApi\\JWTAuth.WebApi\\obj\\",
+      "projectUniqueName": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\BarberiApp.WebApi.csproj",
+      "projectName": "BarberiApp.WebApi",
+      "projectPath": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\BarberiApp.WebApi.csproj",
+      "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dario\\source\\repos\\ApiNet\\JWTAuth.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

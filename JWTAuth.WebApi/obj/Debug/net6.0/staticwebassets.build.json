@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "fgDgX0sYONmdl2jf9+BhZdewQKBRGP5iOKXkV5FVC34=",
-  "Source": "JWTAuth.WebApi",
-  "BasePath": "_content/JWTAuth.WebApi",
+  "Hash": "/juLfudmjvs93pAtTkb4SS9NI+jEMooDtvG0ht7YJq0=",
+  "Source": "BarberiApp.WebApi",
+  "BasePath": "_content/BarberiApp.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

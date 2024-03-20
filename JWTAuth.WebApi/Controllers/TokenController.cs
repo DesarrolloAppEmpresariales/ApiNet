@@ -22,11 +22,11 @@ namespace JWTAuth.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(UserInfo _userData)
+        public async Task<IActionResult> Post(Usuario _userData)
         {
-            if (_userData != null && _userData.Email != null && _userData.Password != null)
+            if (_userData != null && _userData.Alias != null && _userData.Contraseña != null)
             {
-                var user = await GetUser(_userData.Email, _userData.Password);
+                var user = await GetUser(_userData.Alias, _userData.Contraseña);
 
                 if (user != null)
                 {
@@ -35,10 +35,11 @@ namespace JWTAuth.WebApi.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                         new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                        new Claim("UserId", user.UserId.ToString()),
-                        new Claim("DisplayName", user.DisplayName),
-                        new Claim("UserName", user.UserName),
-                        new Claim("Email", user.Email)
+                        //new Claim("UserId", user.UserId.ToString()),
+                        new Claim("Email", user.Email),
+                        new Claim("UserName", user.Alias),
+                        new Claim("RolId", user.RolId.ToString()),
+                        new Claim(ClaimTypes.Role, user.RolId.ToString())
                     };
 
                     var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -63,9 +64,9 @@ namespace JWTAuth.WebApi.Controllers
             }
         }
 
-        private async Task<UserInfo> GetUser(string email, string password)
+        private async Task<Usuario> GetUser(string alias, string password)
         {
-            return await _context.UserInfos.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
+            return await _context.UserInfos.FirstOrDefaultAsync(u => u.Alias == alias && u.Contraseña == password);
         }
     }
 }

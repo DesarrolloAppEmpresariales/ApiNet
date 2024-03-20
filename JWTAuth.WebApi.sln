@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuth.WebApi", "JWTAuth.WebApi\JWTAuth.WebApi.csproj", "{5376198C-03E8-42EF-89EC-558531DAD2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberiApp.WebApi", "JWTAuth.WebApi\BarberiApp.WebApi.csproj", "{5376198C-03E8-42EF-89EC-558531DAD2ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Debug|x64.ActiveCfg = Debug|x64
+		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Debug|x64.Build.0 = Debug|x64
 		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Release|x64.ActiveCfg = Release|x64
+		{5376198C-03E8-42EF-89EC-558531DAD2ED}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

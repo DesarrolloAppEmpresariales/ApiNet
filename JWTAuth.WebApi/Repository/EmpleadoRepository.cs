@@ -4,20 +4,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JWTAuth.WebApi.Repository
 {
-    public class EmployeeRepository : IEmployees
+    public class EmpleadoRepository : IEmpleado
     {
         readonly DatabaseContext _dbContext = new();
 
-        public EmployeeRepository(DatabaseContext dbContext)
+        public EmpleadoRepository(DatabaseContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public List<Employee> GetEmployeeDetails()
+        public List<Empleado> ObtenerListaEmpleados()
         {
             try
             {
-                return _dbContext.Employees.ToList();
+                return _dbContext.Empleado.ToList();
             }
             catch
             {
@@ -25,14 +25,14 @@ namespace JWTAuth.WebApi.Repository
             }
         }
 
-        public Employee GetEmployeeDetails(int id)
+        public Empleado ObtenerEmpleadoPorId(int id)
         {
             try
             {
-                Employee? employee = _dbContext.Employees.Find(id);
-                if (employee != null)
+                Empleado? empleado = _dbContext.Empleado.Find(id);
+                if (empleado != null)
                 {
-                    return employee;
+                    return empleado;
                 }
                 else
                 {
@@ -45,11 +45,11 @@ namespace JWTAuth.WebApi.Repository
             }
         }
 
-        public void AddEmployee(Employee employee)
+        public void CrearEmpleado(Empleado empleado)
         {
             try
             {
-                _dbContext.Employees.Add(employee);
+                _dbContext.Empleado.Add(empleado);
                 _dbContext.SaveChanges();
             }
             catch
@@ -58,11 +58,11 @@ namespace JWTAuth.WebApi.Repository
             }
         }
 
-        public void UpdateEmployee(Employee employee)
+        public void ActualizarEmpleado(Empleado empleado)
         {
             try
             {
-                _dbContext.Entry(employee).State = EntityState.Modified;
+                _dbContext.Entry(empleado).State = EntityState.Modified;
                 _dbContext.SaveChanges();
             }
             catch
@@ -71,17 +71,17 @@ namespace JWTAuth.WebApi.Repository
             }
         }
 
-        public Employee DeleteEmployee(int id)
+        public Empleado EliminarEmpleado(int id)
         {
             try
             {
-                Employee? employee = _dbContext.Employees.Find(id);
+                Empleado? empleado = _dbContext.Empleado.Find(id);
 
-                if (employee != null)
+                if (empleado != null)
                 {
-                    _dbContext.Employees.Remove(employee);
+                    _dbContext.Empleado.Remove(empleado);
                     _dbContext.SaveChanges();
-                    return employee;
+                    return empleado;
                 }
                 else
                 {
@@ -94,9 +94,9 @@ namespace JWTAuth.WebApi.Repository
             }
         }
 
-        public bool CheckEmployee(int id)
+        public bool ValidarEmpleado(int id)
         {
-            return _dbContext.Employees.Any(e => e.EmployeeID == id);
+            return _dbContext.Empleado.Any(e => e.EmpleadoID == id);
         }
     }
 }

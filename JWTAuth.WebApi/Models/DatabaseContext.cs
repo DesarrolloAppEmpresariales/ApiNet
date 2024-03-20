@@ -13,39 +13,30 @@ namespace JWTAuth.WebApi.Models
         {
         }
 
-        public virtual DbSet<Employee>? Employees { get; set; }
-        public virtual DbSet<UserInfo>? UserInfos { get; set; }
+        public virtual DbSet<Empleado>? Empleado { get; set; }
+        public virtual DbSet<Usuario>? UserInfos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<UserInfo>(entity =>
+            modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasNoKey();
-                entity.ToTable("UserInfo");
-                entity.Property(e => e.UserId).HasColumnName("UserId");
-                entity.Property(e => e.DisplayName).HasMaxLength(60).IsUnicode(false);
-                entity.Property(e => e.UserName).HasMaxLength(30).IsUnicode(false);
-                entity.Property(e => e.Email).HasMaxLength(50).IsUnicode(false);
-                entity.Property(e => e.Password).HasMaxLength(20).IsUnicode(false);
-                entity.Property(e => e.CreatedDate).IsUnicode(false);
+                entity.ToTable("Usuario");
+                entity.Property(e => e.UsuarioID).HasColumnName("Id");
+                entity.Property(e => e.Email).HasMaxLength(180).IsUnicode(false);
+                entity.Property(e => e.Alias).HasMaxLength(10).IsUnicode(false);
+                entity.Property(e => e.Contraseña).HasMaxLength(30).IsUnicode(false);
+                entity.Property(e => e.RolId).HasColumnName("rol_id").HasMaxLength(1).IsUnicode(false);
             });
 
-            modelBuilder.Entity<Employee>(entity =>
+            modelBuilder.Entity<Empleado>(entity =>
             {
-                entity.ToTable("Employee");
-                entity.Property(e => e.EmployeeID).HasColumnName("EmployeeID");
-                entity.Property(e => e.NationalIDNumber).HasMaxLength(15).IsUnicode(false);
-                entity.Property(e => e.EmployeeName).HasMaxLength(100).IsUnicode(false);
-                entity.Property(e => e.LoginID).HasMaxLength(256).IsUnicode(false);
-                entity.Property(e => e.JobTitle).HasMaxLength(50).IsUnicode(false);
-                entity.Property(e => e.BirthDate).IsUnicode(false);
-                entity.Property(e => e.MaritalStatus).HasMaxLength(1).IsUnicode(false);
-                entity.Property(e => e.Gender).HasMaxLength(1).IsUnicode(false);
-                entity.Property(e => e.HireDate).IsUnicode(false);
-                entity.Property(e => e.VacationHours).IsUnicode(false);
-                entity.Property(e => e.SickLeaveHours).IsUnicode(false);
-                entity.Property(e => e.RowGuid).HasMaxLength(50).IsUnicode(false);
-                entity.Property(e => e.ModifiedDate).IsUnicode(false);
+                entity.ToTable("Empleado");
+                entity.Property(e => e.EmpleadoID).HasColumnName("Id");
+                entity.Property(e => e.Genero).HasMaxLength(1).IsUnicode(false);
+                entity.Property(e => e.Cedula).HasMaxLength(10).IsUnicode(false);                
+                entity.Property(e => e.Nombre).HasMaxLength(30).IsUnicode(false);
+                entity.Property(e => e.UsuarioID).HasColumnName("usuario_id").HasMaxLength(5).IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);
